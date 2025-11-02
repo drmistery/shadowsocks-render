@@ -14,4 +14,4 @@ ENV METHOD=aes-256-gcm
 EXPOSE 8388
 
 # Запуск Shadowsocks сервера
-CMD ["ss-server", "-s", "0.0.0.0", "-p", "8388", "-k", "yourpassword", "-m", "aes-256-gcm"]
+CMD ["ss-server", "-s", "0.0.0.0", "-p", "8388", "-k", "${PASSWORD}", "-m", "aes-256-gcm"]
