@@ -5,7 +5,7 @@ RUN apt update && apt install -y shadowsocks-libev && \
 
 ENV SERVER_ADDR=0.0.0.0
 ENV SERVER_PORT=8388
-ENV PASSWORD
+ENV PASSWORD=changeme
 ENV METHOD=aes-256-gcm
 ENV TIMEOUT=300
 
